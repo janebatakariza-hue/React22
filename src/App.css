@@ -19,6 +19,11 @@ font-family:Georgia, 'Times New Roman', Times, serif
   align-items:center;
   justify-content:center;
   margin:100px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+#about:hover , #projects:hover , #contacts:hover{
+  transform:translateY(-10px);
 }
 #projects{
     border:1px solid lightblue;
@@ -29,6 +34,11 @@ font-family:Georgia, 'Times New Roman', Times, serif
   justify-content:center;
   margin:100px;
   
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  
+
+  
 }
 #contacts{
     border:1px solid lightblue;
@@ -38,6 +48,8 @@ font-family:Georgia, 'Times New Roman', Times, serif
   align-items:center;
   justify-content:center;
   margin:100px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 nav{
   background-color:#3BC1A8;
