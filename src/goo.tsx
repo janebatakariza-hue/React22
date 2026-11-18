@@ -1,6 +1,6 @@
-// No need to import React in modern Vite + TS
+// // No need to import React in modern Vite + TS
 
-function Goo() {
+/*function Goo() {
   const person = {
     namer: "Jane",
     age: 2009,
@@ -51,12 +51,16 @@ function Goo() {
 
 /* ---------------- ReachOut Component ---------------- */
 
-type ReachOutProps = {
+/*type ReachOutProps = {
   age?: number;
 };
 
 const ReachOut = ({ age }: ReachOutProps) => {
   return <div>Reach out age: {age}</div>;
 };
+*/
 
-export default Goo;
+
+
+
+// export default Goo;

@@ -1,5 +1,5 @@
 import './App.css'
-import InfoName from './info';
+import  './goo';
 
 
-export default InfoName;
+export default Goo;
